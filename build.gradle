@@ -11,7 +11,9 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+configurations {
+    compile.exclude group: 'com.google.zxing'
+}
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
