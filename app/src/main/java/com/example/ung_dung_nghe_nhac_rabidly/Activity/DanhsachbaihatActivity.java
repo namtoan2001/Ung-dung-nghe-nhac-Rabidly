@@ -24,7 +24,7 @@ import com.example.ung_dung_nghe_nhac_rabidly.Model.PhoBienModel;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.PlaylistModel;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.ThinhHanhModel;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.ThuVienPlayListModel;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.APIService;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.Dataservice;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

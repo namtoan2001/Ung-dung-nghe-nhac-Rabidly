@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ung_dung_nghe_nhac_rabidly.Adapter.ThuVienNgheSiAdapter;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.NgheSiModel;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.APIService;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.Dataservice;
 

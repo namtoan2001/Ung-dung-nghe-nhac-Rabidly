@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.ung_dung_nghe_nhac_rabidly.Fragment.Fragment_insert_nhac_thu_vien;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 
 public class InsertNhacThuVienActivity extends AppCompatActivity {
     private int idThuVien;

@@ -19,7 +19,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.ung_dung_nghe_nhac_rabidly.Activity.DangKyActivity;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.ResponseModel;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.APIService;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.Dataservice;
 

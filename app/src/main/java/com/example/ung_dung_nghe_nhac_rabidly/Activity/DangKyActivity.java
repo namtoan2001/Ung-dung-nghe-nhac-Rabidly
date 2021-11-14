@@ -14,10 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Fragment.Dialog_Dangky_Free;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.PhanHoiDangKyModel;
-
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.APIService;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.Dataservice;
 import com.facebook.AccessToken;

@@ -24,7 +24,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.BaiHatModel;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.BaiHatThuVienPlayListModel;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.BaiHatYeuThichModel;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 

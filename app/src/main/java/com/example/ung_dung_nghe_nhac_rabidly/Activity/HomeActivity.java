@@ -16,7 +16,7 @@ import com.example.ung_dung_nghe_nhac_rabidly.Fragment.Fragment_Thu_Vien;
 import com.example.ung_dung_nghe_nhac_rabidly.Fragment.Fragment_Tim_Kiem;
 import com.example.ung_dung_nghe_nhac_rabidly.Fragment.Fragment_Trang_Chu;
 import com.example.ung_dung_nghe_nhac_rabidly.Fragment.LoadingDialog;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_Local.ForegroundServiceControl;
 import com.google.android.material.tabs.TabLayout;
 

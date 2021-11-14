@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.ung_dung_nghe_nhac_rabidly.Activity.DanhsachbaihatActivity;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.ResponseModel;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.ThuVienPlayListModel;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.APIService;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.Dataservice;
 import com.squareup.picasso.Picasso;

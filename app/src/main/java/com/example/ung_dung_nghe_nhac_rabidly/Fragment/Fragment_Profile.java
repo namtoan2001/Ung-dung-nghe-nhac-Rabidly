@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.ung_dung_nghe_nhac_rabidly.Activity.DangKyActivity;
 import com.example.ung_dung_nghe_nhac_rabidly.Activity.HomeActivity;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;

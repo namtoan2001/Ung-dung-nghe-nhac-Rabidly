@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 
 public class Dialog_insert_thu_vien_playlist extends AppCompatDialogFragment {
     ExampleDialogListenerthuvien listener;

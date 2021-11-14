@@ -15,7 +15,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.example.ung_dung_nghe_nhac_rabidly.Activity.HomeActivity;
 import com.example.ung_dung_nghe_nhac_rabidly.Adapter.YeuThichAdapter;
 import com.example.ung_dung_nghe_nhac_rabidly.Model.BaiHatYeuThichModel;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.APIService;
 import com.example.ung_dung_nghe_nhac_rabidly.Service_API.Dataservice;
 

@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ung_dung_nghe_nhac_rabidly.Activity.DangKyActivity;
-import com.example.btl_music4b.R;
+import com.example.ung_dung_nghe_nhac_rabidly.R;
 
 
 public class Dialog_Forget_Password extends AppCompatActivity {
