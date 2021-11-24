@@ -14,9 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.InsertNhacThuVienActivity"></activity>
+        <activity android:name=".Activity.InsertNhacThuVienActivity"/>
         <!--<activity android:name=".Fragment.InsertThuVienPlayListActivity" />-->
-        <activity android:name=".Fragment.Dialog_Forget_Password"></activity>
+        <activity android:name=".Fragment.Dialog_Forget_Password"/>
         <activity android:name=".Activity.DangNhapActivity" />
 
         <meta-data

@@ -1,8 +1,8 @@
 package com.example.ung_dung_nghe_nhac_rabidly;
 
-import org.junit.Test;
-
 import static org.junit.Assert.*;
+
+import org.testng.annotations.Test;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

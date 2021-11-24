@@ -118,36 +118,6 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edtmaxacnhandangky"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/edt_all"
-        android:ems="10"
-        android:fontFamily="@font/arimo_bold"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:textColor="@color/design_default_color_background"
-        android:textColorHint="@color/colorPrimary"
-        app:counterEnabled="true"
-        app:counterMaxLength="5"
-        app:endIconMode="clear_text"
-        app:endIconTint="#FFFFFF"
-        app:layout_constraintEnd_toStartOf="@+id/btngetmadangky"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nhập mã xác nhận"
-            android:textColor="#FFFFFF" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emaildangky"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -172,7 +142,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nhập email"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
             android:textColor="#FFFFFF" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -181,7 +152,6 @@
         android:id="@+id/btndangKy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_bgr_button"
         android:fontFamily="@font/arimo_bold"
@@ -190,20 +160,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtmaxacnhandangky" />
-
-    <Button
-        android:id="@+id/btngetmadangky"
-        android:layout_width="100dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/edt_all"
-        android:text="Lấy mã"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/edtmaxacnhandangky"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/emaildangky"
+        app:layout_constraintVertical_bias="0.24" />
 
     <TextView
         android:id="@+id/textView3"
@@ -212,23 +170,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/arimo_bold"
-        android:text="Email"
+        android:text="Nhập lại mật khẩu"
         android:textColor="@color/design_default_color_background"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtmatkhau" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/arimo_bold"
-        android:text="Mã xác nhận"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emaildangky" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

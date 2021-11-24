@@ -121,13 +121,13 @@ public class DangNhapActivity extends AppCompatActivity {
             public void onResponse(Call<List<NguoiDungModel>> call, Response<List<NguoiDungModel>> response) {
                 ArrayList<NguoiDungModel> mangthongtinnguoidung = (ArrayList<NguoiDungModel>) response.body();
                 if (mangthongtinnguoidung.size() > 0){
-                   username = mangthongtinnguoidung.get(0).getUserName();
-                   password = mangthongtinnguoidung.get(0).getPassword();
-                   name = mangthongtinnguoidung.get(0).getNameuser();
-                   email = mangthongtinnguoidung.get(0).getEmail();
-                   image = mangthongtinnguoidung.get(0).getImage();
-                   InsertData(username, password, name, email, image);
-                   startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                    username = mangthongtinnguoidung.get(0).getUserName();
+                    password = mangthongtinnguoidung.get(0).getPassword();
+                    name = mangthongtinnguoidung.get(0).getNameuser();
+                    email = mangthongtinnguoidung.get(0).getEmail();
+                    image = mangthongtinnguoidung.get(0).getImage();
+                    InsertData(username, password, name, email, image);
+                    startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                 }else {
                     Toast.makeText(DangNhapActivity.this, "kết nối thất bại", Toast.LENGTH_SHORT).show();
                 }

@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/arimo_bold"
-        android:text="Miễn phí trên Music4B."
+        android:text="Miễn phí trên Rapidly"
         android:textColor="#ffffff"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
