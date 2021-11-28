@@ -138,28 +138,28 @@
         android:id="@+id/edtmkdn"
         android:layout_width="376dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/edt_all"
         android:ems="10"
         android:fontFamily="@font/arimo_bold"
-        app:passwordToggleEnabled="true"
-        app:passwordToggleTint="#FFFFFF"
         android:paddingLeft="15dp"
-        app:counterEnabled="true"
-        app:counterMaxLength="36"
-        app:errorEnabled="true"
         android:textColor="@color/design_default_color_background"
         android:textColorHint="@color/colorPrimary"
         android:textSize="18sp"
+        app:counterEnabled="true"
+        app:counterMaxLength="36"
+        app:errorEnabled="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" >
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FFFFFF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="Nhập mật khẩu"
             android:inputType="textPassword"
-            android:textColor="#FFFFFF"
-            android:hint="Nhập mật khẩu" />
+            android:textColor="#FFFFFF" />
     </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
